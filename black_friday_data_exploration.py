@@ -31,7 +31,6 @@
     "import copy\n",
     "import matplotlib.pyplot as plt\n",
     "import seaborn as sns\n",
-    "import pandas_profiling\n",
     "pd.set_option('display.max_columns', 500)\n",
     "pd.set_option('display.max_rows', 500)"
    ]
@@ -53,7 +52,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "\n",
+    "import pandas_profiling\n",
     "profile = pandas_profiling.ProfileReport(df,check_correlation = True)\n",
     "profile.to_file(outputfile=\"output.html\")"
    ]
