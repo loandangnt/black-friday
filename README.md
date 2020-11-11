@@ -1,4 +1,4 @@
-BLACK FRIDAY SALES PREDICTION
+# BLACK FRIDAY SALES PREDICTION
 (Link: https://datahack.analyticsvidhya.com/contest/black-friday/#ProblemStatement)
 
 Predict sales based on past purchase, customer demographics and product details
@@ -7,21 +7,20 @@ The data set also contains customer demographics (age, gender, marital status, c
 
 Now, they want to build a model to predict the purchase amount of customer against various products which will help them to create personalized offer for customers against different products.
 
-Data:
-
-Variable	Definition
-User_ID:	User ID
-Product_ID:	Product ID
-Gender:	Sex of User
-Age:	Age in bins
-Occupation:	Occupation (Masked)
-City_Category:	Category of the City (A,B,C)
-Stay_In_Current_City_Years:	Number of years stay in current city
-Marital_Status:	Marital Status
-Product_Category_1:	Product Category (Masked)
-Product_Category_2:	Product may belongs to other category also (Masked)
-Product_Category_3:	Product may belongs to other category also (Masked)
-Purchase:	Purchase Amount (Target Variable)
+DATA:
+- Variable:	Definition
+- User_ID:	User ID
+- Product_ID:	Product ID
+- Gender:	Sex of User
+- Age:	Age in bins
+- Occupation:	Occupation (Masked)
+- City_Category:	Category of the City (A,B,C)
+- Stay_In_Current_City_Years:	Number of years stay in current city
+- Marital_Status:	Marital Status
+- Product_Category_1:	Product Category (Masked)
+- Product_Category_2:	Product may belongs to other category also (Masked)
+- Product_Category_3:	Product may belongs to other category also (Masked)
+- Purchase:	Purchase Amount (Target Variable)
 
 Submissions are scored on the root mean squared error (RMSE).
 
